@@ -1,4 +1,4 @@
-package V1P1
+package main
 
 import "fmt"
 
@@ -11,5 +11,5 @@ func main() {
 	f := (c * 9 / 5) + 32
 	k := c + 273.15
 
-	fmt.Printf("Celsius: %.2f, Fahrenheit: %.2f, Kelvin: %.2f\n", c, f, k)
+	fmt.Printf("Celsius: %f, Fahrenheit: %f, Kelvin: %f\n", c, f, k)
 }

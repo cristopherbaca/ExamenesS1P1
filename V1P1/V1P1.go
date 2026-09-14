@@ -1,17 +1,15 @@
-package main
+package V1P1
 
 import "fmt"
 
-func main(){
+func main() {
+	var c float64
 
-	c := 0;
+	fmt.Print("Enter the temperature in Celsius: ")
+	fmt.Scanln(&c)
 
-	fmt.Printf("Enter the temperature: ");
-	fmt.Scanln(&c);
+	f := (c * 9 / 5) + 32
+	k := c + 273.15
 
-	f := (c * (9/5)) + 32;
-	k := float64(c) + 275.13;
-
-	fmt.Println("Celsius: ", c , ", Fahnreit: " , f , ", Kelvin: " , k) ;
-
+	fmt.Printf("Celsius: %.2f, Fahrenheit: %.2f, Kelvin: %.2f\n", c, f, k)
 }

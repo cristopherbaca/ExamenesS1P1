@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	var c float64;
+	var c float64
 
 	fmt.Print(": ")
 	fmt.Scanln(&c)

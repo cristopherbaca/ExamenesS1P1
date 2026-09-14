@@ -3,9 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var c float64
 
-	fmt.Print("Enter the temperature in Celsius: ")
+	var c float64;
+
+	fmt.Print(": ")
 	fmt.Scanln(&c)
 
 	f := (c * 9 / 5) + 32

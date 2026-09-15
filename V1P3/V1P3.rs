@@ -4,7 +4,7 @@ fn main() {
 
     let mut mejor_valor = a[0];
     let mut mejor_frecuencia = 0;
-
+    
     for i in 0..a.len() { // Recorremos el arreglo
         let mut frecuencia = 0;
 
